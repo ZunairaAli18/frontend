@@ -44,13 +44,14 @@
     "string-strip-html": "^9.1.12"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "7.2.3",
-    "@storybook/addon-interactions": "^7.2.3",
-    "@storybook/addon-links": "7.2.3",
+    "@storybook/addon-a11y": "^7.6.24",
+    "@storybook/addon-essentials": "7.6.24",
+    "@storybook/addon-interactions": "7.6.24",
+    "@storybook/addon-links": "7.6.24",
     "@storybook/addon-onboarding": "^1.0.8",
-    "@storybook/blocks": "7.2.3",
-    "@storybook/nextjs": "^7.2.3",
-    "@storybook/react": "^7.2.3",
+    "@storybook/blocks": "7.6.24",
+    "@storybook/nextjs": "7.6.24",
+    "@storybook/react": "7.6.24",
     "@storybook/testing-library": "^0.2.0",
     "@tailwindcss/typography": "^0.5.2",
     "@types/formidable": "^2.0.5",
@@ -78,7 +79,7 @@
     "prettier": "^2.7.1",
     "relay-compiler": "0.0.0-main-21a896c5",
     "relay-test-utils": "^14.0.0",
-    "storybook": "^7.2.3",
+    "storybook": "7.6.24",
     "tailwind-scrollbar": "^2.0.1",
     "tailwindcss": "^3.3.3",
     "typescript": "4.5.5"
@@ -100,5 +101,6 @@
   },
   "resolutions": {
     "webpack": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
 }
